@@ -1,13 +1,18 @@
-# Smart Business BD
+# Smart Business BD — Frontend Starter
 
-এটি একটি সম্পূর্ণ React + Vite + Supabase প্রজেক্ট।
+React + Vite + Supabase Auth ভিত্তিক frontend।
 
-## ফোল্ডার স্ট্রাকচার:
-- `src/` : মূল রিয়্যাক্ট কোড (App.jsx, supabaseClient.js, main.jsx ইত্যাদি)
-- `public/` : PWA manifest এবং স্ট্যাটিক এসেটস
-- `supabase/migrations/` : ডাটাবেস টেবিল স্কিমা এবং RPC ফাংশন
+## GitHub আপলোড
+ZIP extract করে `SmartBusinessBD` ফোল্ডারের ভেতরের সব ফাইল ও `src` ফোল্ডার repository root-এ আপলোড করুন। ZIP-টি repository-তে দেবেন না।
 
-## কিভাবে রান করবেন:
-১. জিপ ফাইলটি এক্সট্র্যাক্ট করুন।
-২. ফোল্ডারে ঢুকে টার্মিনালে লিখুন: `npm install`
-৩. প্রজেক্ট চালু করতে লিখুন: `npm run dev`
+## Vercel
+Framework: Vite | Build command: `npm run build` | Output: `dist`
+
+Environment Variables:
+- `VITE_SUPABASE_URL` = Supabase Project URL
+- `VITE_SUPABASE_ANON_KEY` = Supabase publishable/anon key
+
+কখনো `service_role` key বা database password frontend-এ দেবেন না।
+
+## গুরুত্বপূর্ণ
+এই সংস্করণে লগইন/রেজিস্ট্রেশন ও dashboard UI আছে। ডিপোজিট, উইথড্র, বিনিয়োগ, package purchase, admin approval এখন live নয়। বিদ্যমান Supabase schema, RLS policies এবং RPC signature যাচাই না করে কোনো SQL চালাবেন না বা অর্থ লেনদেন চালু করবেন না।

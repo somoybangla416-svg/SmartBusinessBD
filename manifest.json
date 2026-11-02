@@ -1,9 +1,1 @@
-{
-  "short_name": "SmartBD",
-  "name": "Smart Business BD",
-  "icons": [],
-  "start_url": "/",
-  "background_color": "#090d16",
-  "theme_color": "#059669",
-  "display": "standalone"
-}
+{"name":"Smart Business BD","short_name":"SmartBusiness","start_url":"/","display":"standalone","background_color":"#081b2c","theme_color":"#081b2c","icons":[]}
