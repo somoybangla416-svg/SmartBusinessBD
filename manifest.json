@@ -1,0 +1,9 @@
+{
+  "short_name": "SmartBD",
+  "name": "Smart Business BD",
+  "icons": [],
+  "start_url": "/",
+  "background_color": "#090d16",
+  "theme_color": "#059669",
+  "display": "standalone"
+}
